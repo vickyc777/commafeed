@@ -542,4 +542,19 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>comma feed release Repository</name>
+	      <url>http://3.109.59.235:8081/repository/comma-feed-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>comma feed snapshot Repository </name>
+	      <url>http://3.109.59.235:8081/repository/comma-feed-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 </project>
